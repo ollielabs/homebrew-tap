@@ -4,17 +4,17 @@
 class Ollie < Formula
   desc "Agentic coding tool powered by Ollama - local, private, and fast"
   homepage "https://github.com/ollielabs/olliecode"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ollielabs/olliecode/releases/download/v0.1.5/ollie-darwin-arm64.tar.gz"
-      sha256 "cc7fc0f2d132c42848399e648a1d615e6dd4c0a9c17508e1ca84e3d2f4bff5ce"
+      url "https://github.com/ollielabs/olliecode/releases/download/v0.1.6/ollie-darwin-arm64.tar.gz"
+      sha256 "aaa2196304aa50cc194d0dd306251f1c9f0f962f1bcb399f4f4a6eaae0991af9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ollielabs/olliecode/releases/download/v0.1.5/ollie-darwin-x64.tar.gz"
-      sha256 "61a249bf2db28af633a2b2c43301b97b26a647220eedacd3f71531acaba534b2"
+      url "https://github.com/ollielabs/olliecode/releases/download/v0.1.6/ollie-darwin-x64.tar.gz"
+      sha256 "aee4303e85f759daac1907c691730b4aeb2fabfab6d6204b497a2f0ee6458c34"
     end
   end
 
